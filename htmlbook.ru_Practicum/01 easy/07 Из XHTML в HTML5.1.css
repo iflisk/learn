@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Akrobatlight;
+    src: url(image/Akrobatlight.ttf);
+}
+
+body {
+    font: 0.8em Akrobatlight;
+    /* font-weight: bolder; */
+    /* Шрифт на веб-странице */
+    background: #D7E1F2;
+    /* Цвет фона */
+    color: #ffe;
+    /* Цвет текста */
+}
+
+a {
+    color: #008BCE;
+    /* Цвет ссылок */
+}
+
+section {
+    width: 500px;
+    /* Ширина макета */
+    margin: 0 auto;
+    /* Выравниваем по центру */
+    background: rgb(255, 244, 126);
+    /* Цвет колонок */
+}
+
+header {
+    font-size: 2.2em;
+    /* Размер текста */
+    text-align: center;
+    /* Выравнивание по центру */
+    padding: 5px;
+    /* Отступы вокруг текста */
+    background: #D71920;
+    /* Цвет фона шапки */
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+nav,
+aside {
+    float: left;
+    width: 110px;
+    padding: 5px;
+}
+
+article {
+    background: rgb(122, 189, 114);
+    margin: 0 120px;
+    /* Ширина колонок */
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    color: #000;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+footer {
+    clear: both;
+    /* Отменяем действие float */
+    padding: 5px;
+    /* Отступы вокруг текста */
+    background: #D71920;
+    /* Цвет фона шапки */
+}

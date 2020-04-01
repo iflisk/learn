@@ -1,0 +1,93 @@
+/*
+body {
+    background-color: aquamarine;
+}
+
+body, h1, h3 - Это селектор
+{} - Объявление стилей
+background color - Это свойство
+aquamarine - Это значение
+*/
+/* 
+* {
+    font-size: 20px;
+} 
+*/
+* {
+text-decoration: none;
+}
+html {
+    background: url('https://img3.goodfon.ru/original/320x240/b/39/kamen-treschiny-kvadrat.jpg')repeat-x #6fb36f center top;
+}
+
+#header {color: chocolate;}
+
+#header_1 {color: darkblue;}
+
+h3.style {color: green;}
+
+p.style {background-color: blue;}
+
+p i {color:rosybrown;}
+
+p.example, b {
+    font-size: 30px;
+    font-weight: normal;
+}
+/* :first-letter - Это псевдо-элемент */
+p#example:first-letter {
+    color: red;
+}
+
+p#example:first-line {
+    color: orange;
+}
+
+p:hover {
+    background-color: orangered;
+}
+
+.href {
+    color: #5f1a1a;
+}
+.href:hover {
+    color: green;
+}
+
+.href:active {
+    color: blue;
+}
+
+/* .href:visited {
+    color: white;
+} */
+
+p {
+    text-indent: 1.1em;
+}
+
+#textStyle {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Comic Sans MS, sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+#textStyle span {
+    text-transform: none;
+}
+
+#TestBlock {
+    border: 3px outset rgb(211, 150, 150);
+    border-bottom: 5px dotted red;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(243, 237, 237);
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 20px;
+}

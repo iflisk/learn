@@ -1,0 +1,159 @@
+/*
+body {
+    background-color: aquamarine;
+}
+
+body, h1, h3 - Это селектор
+{} - Объявление стилей
+background color - Это свойство
+aquamarine - Это значение
+*/
+/* 
+* {
+    font-size: 20px;
+} 
+*/
+* {
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+html {
+    background: url('https://img3.goodfon.ru/original/320x240/b/39/kamen-treschiny-kvadrat.jpg')repeat-x #6fb36f center top;
+}
+
+#header {color: chocolate;}
+
+#header_1 {color: darkblue;}
+
+h3.style {color: green;}
+
+p.style {background-color: blue;}
+
+p i {color:rosybrown;}
+
+p.example, b {
+    font-size: 30px;
+    font-weight: normal;
+}
+/* :first-letter - Это псевдо-элемент */
+p#example:first-letter {
+    color: red;
+}
+
+p#example:first-line {
+    color: orange;
+}
+
+p:hover {
+    background-color: orangered;
+}
+
+.href {
+    color: #5f1a1a;
+}
+.href:hover {
+    color: green;
+}
+
+.href:active {
+    color: blue;
+}
+
+/* .href:visited {
+    color: white;
+} */
+
+p {
+    text-indent: 1.1em;
+}
+
+#textStyle {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Comic Sans MS, sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+#textStyle span {
+    text-transform: none;
+}
+
+#TestBlock {
+    border: 3px outset rgb(211, 150, 150);
+    border-bottom: 5px dotted red;
+    width: 50%;
+    float: right;
+    position: relative;
+    z-index: -10;
+    background-color: rgb(243, 237, 237);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header {
+     width: calc(100% - 20px);
+     height: 50px;
+     background-color: #fff;
+     border-bottom: 2px solid silver;
+     padding: 10px;
+     font-size: 1,2em;
+     color: #333;
+     float: left;
+     font-family: Comic Sans MS, sans-serif;
+}
+
+article, aside {
+    background-color: #fafafa;
+    min-height: 400px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: auto;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+aside {
+    width: 25%;
+}
+
+aside ol {
+    list-style-position: inside;
+    list-style-type: square;
+    list-style-image: url();
+}
+
+footer {
+    width: calc(100% - 20px);
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+    background-color: #fff;
+    border-top: 2px solid silver;
+    padding: 10px;
+    font-size: 1,2em;
+    color: #333;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+.spanBlock {
+    display: block;
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+    overflow: auto;
+}

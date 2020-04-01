@@ -1,0 +1,18 @@
+#formula {
+    font-size: 1.55em;
+    font-style: italic;
+}
+
+#formula sub,
+#formula sup {
+    font-size: .6em;
+    font-style: normal;
+}
+
+#formula sub {
+    color: blue;
+}
+
+#formula sup {
+    color: red;
+}

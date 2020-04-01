@@ -1,0 +1,33 @@
+/*
+body {
+    background-color: aquamarine;
+}
+
+body, h1, h3 - Это селектор
+{} - Объявление стилей
+background color - Это свойство
+aquamarine - Это значение
+*/
+/* 
+* {
+    font-size: 20px;
+} 
+*/
+html {
+    background-color: gray;
+}
+
+#header {color: chocolate;}
+
+#header_1 {color: darkblue;}
+
+h3.style {color: green;}
+
+p.style {background-color: blue;}
+
+p i {color:rosybrown;}
+
+p.example, b {
+    font-size: 30px;
+    font-weight: normal;
+}

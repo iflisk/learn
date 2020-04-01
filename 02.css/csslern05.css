@@ -1,0 +1,63 @@
+/*
+body {
+    background-color: aquamarine;
+}
+
+body, h1, h3 - Это селектор
+{} - Объявление стилей
+background color - Это свойство
+aquamarine - Это значение
+*/
+/* 
+* {
+    font-size: 20px;
+} 
+*/
+* {
+text-decoration: none;
+}
+html {
+    background-color: gray;
+}
+
+#header {color: chocolate;}
+
+#header_1 {color: darkblue;}
+
+h3.style {color: green;}
+
+p.style {background-color: blue;}
+
+p i {color:rosybrown;}
+
+p.example, b {
+    font-size: 30px;
+    font-weight: normal;
+}
+/* :first-letter - Это псевдо-элемент */
+p#example:first-letter {
+    color: red;
+}
+
+p#example:first-line {
+    color: orange;
+}
+
+p:hover {
+    background-color: orangered;
+}
+
+.href {
+    color: #5f1a1a;
+}
+.href:hover {
+    color: green;
+}
+
+.href:active {
+    color: blue;
+}
+
+/* .href:visited {
+    color: white;
+} */

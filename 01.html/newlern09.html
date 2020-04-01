@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Link in HTML</title>
+</head>
+<body>
+	<!-- переход по ссылке с открытием новой вкладки -->
+	<a href="http://google.com" target="_blank" title="переход на google.com">Google</a>
+	
+	<br />
+	
+	<!-- плавный переход по ссылке http://gnatkovsky.com.ua/yakorya-i-plavnyj-perexod-po-yakornym-ssylkam.html (jQuery)-->
+	<a href="#example" >Переход на заголовок 4</a>
+	
+	<br />
+	
+	<a href="mailto:ya@ya.ru">email</a>
+	<h1>Заголовок 1</h1>
+	<h2>Заголовок 2</h2>
+	<h3>Заголовок 3</h3>
+	<a name="example"></a>
+	<h4>Заголовок 4</h4>
+	<p>это текст <em>будет</em> <u>абзацем</u></p>
+	<p>это <strong>текст</strong> будет <strike>абзацем</strike></p>
+	
+	<!-- тег всплывающей подсказки при наведении, в том числе обрабатывается поисковыми системами -->
+	<p><abbr title="Hyper Text Mark-up Language">HTML</abbr></p>
+		
+	<!-- Тег <address> обрабатывается поисковыми системами, именно как адрес, а не как обычный текст, поэтому рекомендуется использовать именно его -->
+	<address>США, штат Вашингтон</address>
+	
+	<p>Этот <u><strike><strong><em>текст пробный</em></strong></strike></u><big>Этот текст большой</big></p>
+	
+	<small>Этот текст маленький</small>
+	<big>Этот текст большой</big>
+	
+	<!-- тег <pre> используется для сохраниея форматирования как в исходнике(например для вывода програм кода, ASC картинок) -->
+	<p>
+		<pre>
+	<>-----    U O U    -----<>
+	<>---        |        ---<>
+		</pre>
+	</p>
+	
+	<!-- тег <blockquote> объясняет посковикам, что дальше цитируем другой сайт/человека, а атрибут "cite=" указывает источник для поиского робота, но не отображает его на странице -->
+	<blockquote cite="Google.com">Система поиска информации в сети интернет (включая русскоязычный интернет). Возможность <u>поиска</u> картинок и новостей; автоматический перевод англоязычных страниц.</blockquote>
+	
+	<p>Станислав Лец утверждал: <q cite="Google.com">Чаще всего выход там, где был вход.</q></p>
+	
+	<!-- hr горизонтальная линия, br пустая строка -->
+	<br />
+	<hr />
+	<br />
+	
+	<!-- тег <nobr> убирает в скопированном тексте переносы строки -->
+	<nobr>
+		Google — поисковая система
+		google.ru
+		Google
+		webtekno.com›google
+		Google, Klavyelerden Boşluk Tuşunu Kaldırmayı Düşünüyor. Kamil Demirtaş. ... Google Arama ile Bilgiler Bilgisayarınızdan Telefonunuza. Engin Karakullukçu
+		Google Arama ile Bilgiler Bilgisayarınızdan Telefonunuza. Engin Karakullukçu
+		Google Arama ile Bilgiler Bilgisayarınızdan Telefonunuza. Engin Karakullukçu
+	</nobr>
+	<p>Список с нумерацией</p>
+	<ol type="a" start="3" reversed="reversed">
+		<li>Первый пункт</li>
+		<li>Второй пункт</li>
+		<li>........</li>
+		<li>......</li>
+	</ol>
+	
+	<p>Список без нумерации</p>
+	<ul type="square">
+		<li>........</li>
+		<li>......</li>
+	</ul>
+	<!-- старый вариант тега <ul> -->
+	<dir>
+		<li>........</li>
+		<li>......</li>
+	</dir>
+	<p>
+		<pre>
+Google Россия — OK
+	ok.ru›googlerussia
+	
+	
+Подписчиков: 41 тыс.О себе: Всем привет и добро пожаловать на официальную страницу Google Россия! Здесь вы ближе познакомитесь с Google...Читать ещё
+
+
+Google (поисковая система) — Wikimedia Foundation
+
+
+dic.academic.ru›dic.nsf/ruwiki/1268816
+
+
+Google (поисковая система) У этого термина существуют и другие значения, см. Google. Google (произносится /ˈguːgl/, «гугл») — первая по популярности (77,04 %[1]) в мире поисковая система, обрабатывающей 41 млрд 345 млн запросов в месяц...
+		</pre>
+	</p>
+</body>
+</html>
